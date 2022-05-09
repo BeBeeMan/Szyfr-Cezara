@@ -22,18 +22,18 @@ int main()
 		   	    }
 			    else if (done[j] != alfabet[i])
 			    {
-				    c++;
+				 c++;
 			    }
 			    else
 			    {
-				    if (c + 3 > alfabet.length()-1)
-				    {
-					    cout << alfabet[(c+3)-alfabet.length()];
-				    }
-				    else
-				    {
-					    cout << alfabet[c + 3];
-				    }
+				 if (c + 3 > alfabet.length()-1)
+				 {
+					 cout << alfabet[(c+3)-alfabet.length()];
+				 }
+				 else
+				 {
+					 cout << alfabet[c + 3];
+				 }
 			    }
 		    }
 	    }
